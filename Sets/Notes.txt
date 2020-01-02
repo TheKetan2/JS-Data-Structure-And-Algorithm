@@ -1,0 +1,11 @@
+Operation       Function        Name Description
+
+Insertion       Set.add         Native JavaScript. Adds the element to the set if it’s not
+                                already in the set.
+Deletion        Set.delete      Native JavaScript. Deletes the element from the set if it’s
+                                in the set.
+Contains        Set.has         Native JavaScript. Checks whether an element exists
+                                within in the set.
+Intersection    (A∩B)           intersectSets Returns a set with common elements of set A and set B.
+Union           (A∪B)           unionSet Returns a set with all elements of set A and set B.
+Difference      (A-B)           differenceSet Returns a set with all elements.
