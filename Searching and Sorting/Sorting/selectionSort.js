@@ -15,3 +15,5 @@ const selectionSort = array => {
     }
   }
 };
+
+// Time Complexity : O(n^2)
