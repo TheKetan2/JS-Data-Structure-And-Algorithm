@@ -35,3 +35,16 @@ function queueAccessNthTopNode(queue, n) {
   }
   return bufferQueue.dequeue();
 }
+
+function queueSearch(queue, element) {
+  var bufferArray = queue.getBuffer();
+
+  var bufferQueue = new Queue(bufferArray);
+
+  while (!bufferQueue.isEmpty()) {
+    if (bufferQueue.dequeue() === element) {
+      return true;
+    }
+  }
+  return false;
+}
